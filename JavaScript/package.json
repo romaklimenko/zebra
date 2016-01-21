@@ -1,0 +1,20 @@
+{
+  "name": "zebra",
+  "version": "0.0.1",
+  "description": "Yet another try to solve programmatically the Einstein's Puzzle also known as Zebra Puzzle.",
+  "scripts": {
+    "test": "tape zebra-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/romaklimenko/zebra/Javascript"
+  },
+  "keywords": [
+    "puzzle"
+  ],
+  "author": "romaklimenko@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "tape": "^4.4.0"
+  }
+}
