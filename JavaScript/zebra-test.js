@@ -3,7 +3,6 @@
 const test = require('tape')
 const Zebra = require('./zebra')
 
-const number = require('./zebra').number
 const color = require('./zebra').color
 const nationality = require('./zebra').nationality
 const drink = require('./zebra').drink
@@ -32,7 +31,6 @@ test('filtered cartesian product', (assert) => {
   const letter_is_a = {
     require: 2,
     test: value => {
-      //console.log(value[0] === 'a' && value[1] === 2)
       return value[0] === 'a' && value[1] === 2
     }
   }
@@ -226,7 +224,7 @@ test('the answer', (assert) => {
     },
     // 8.  The man in the center house drinks milk.
     {
-      require: 25,
+      require: 13,
       test: (value) => {
         const result =  value[12] === 'MILK'
         return result
@@ -234,7 +232,7 @@ test('the answer', (assert) => {
     },
     // 9.  The Norwegian lives in the first house.
     {
-      require: 10,
+      require: 6,
       test: (value) => {
         const result =  value[5] === 'NORWEGIAN'
         return result
@@ -304,7 +302,7 @@ test('the answer', (assert) => {
     },
     // 14. The Norwegian lives next to the blue house.
     {
-      require: 5,
+      require: 2,
       test: (value) => {
         const result =  value[1] === 'BLUE'
         return result

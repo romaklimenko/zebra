@@ -1,6 +1,5 @@
 'use strict'
 
-const number = [1,2,3,4,5]
 const color = ['YELLOW','BLUE','RED','GREEN','WHITE']
 const nationality = ['NORWEGIAN','DANE','ENGLISHMAN','GERMAN','SWEDE']
 const drink = ['WATER','TEA','MILK','COFFEE','BEER']
@@ -66,7 +65,6 @@ module.exports = {
   concat,
   flatten,
 
-  number,
   color,
   nationality,
   drink,
